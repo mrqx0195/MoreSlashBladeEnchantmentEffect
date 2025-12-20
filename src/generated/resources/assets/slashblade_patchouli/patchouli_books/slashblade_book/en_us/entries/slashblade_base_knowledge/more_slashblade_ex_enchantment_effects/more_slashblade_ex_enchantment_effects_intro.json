@@ -1,0 +1,36 @@
+{
+  "category": "slashblade_patchouli:slashblade_base_knowledge",
+  "icon": "minecraft:enchanting_table",
+  "name": "More Enchantment Enhancement Effects",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Welcome to $(thing)More SlashBlade Ex Enchantment Effects$()!$()$(br)This mod adds a large number of additional enchantment enhancement effects to Slash Blades—allowing them to use almost every enchantment that exists in vanilla Minecraft!$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Armor-type Enchantments$()$(br2)Includes: Protection, Blast Protection, Projectile Protection, Feather Falling, Respiration, Frost Walker, Swift Sneak, Aqua Affinity, Depth Strider.$()$(br)These enchantments on Slash Blades have effects equivalent to those on armor, and their effects can stack with enchantments on armor.$()$(br2)Note: These are passive effects that are always active when the blade is held.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Summoned Sword Quantity Effects$()$(br2)Enchantments that affect the number of Summoned Swords fired, without consuming additional Proud Soul Value:$()$(li)$(thing)Multishot$(): +1 $(thing)basic Summoned Sword$(), +2 for other Sword Arrays.$()$(li)$(thing)Piercing$(): Summoned Swords can penetrate targets; each level increases max penetration count by +1.$()$(li)$(thing)Infinity$(): Using $(thing)basic Summoned Swords$() does not consume Proud Soul Value.$()$(br2)These effects apply when performing $(l:abilities_and_mechanics/summoned_swords_series)Summoned Sword shooting arts$().$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Summoned Sword Enhancement Effects$()$(br2)Enchantments that enhance the effects of Summoned Sword shooting arts:$()$(li)$(thing)Quick Charge$(): Reduces charging time for Sword Arrays by 3 ticks per level (default: 10 ticks).$()$(li)$(thing)Punch$(): Summoned Swords launch targets upward upon hit; each level increases launch force.$()$(li)$(thing)Flame$(): 30% chance for Summoned Swords to become fire swords (ignite targets). Chance increases in hot dimensions, when on fire, or in hot fluids.$()$(li)$(thing)Channeling$(): 5% chance for Summoned Swords to call lightning (20% during thunderstorms).$()$(br2)These effects apply when performing $(l:abilities_and_mechanics/summoned_swords_series)Summoned Sword shooting arts$().$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Environmental Effects$()$(br2)Enchantments with effects related to water, rain, or specific environmental conditions:$()$(li)$(thing)Impaling$(): Deals extra damage to targets in water/rain (+20% per level).$()$(li)$(thing)Riptide$(): When swinging blade in water/rain, propels you forward like a trident and increases damage (+20% and speed per level).$()$(li)$(thing)Lure$(): Pulls targets closer when hitting with blade swing; each level increases pull strength.$()$(li)$(thing)Luck of the Sea$(): When killing creatures in water/rain, adds Luck of the Sea level to Looting level.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)Other Utility Effects$()$(br2)Miscellaneous enchantments with unique utility functions:$()$(li)$(thing)Efficiency$(): When hitting targets with blade swing, 10% chance per level to spawn an extra Summoned Sword, and 5% chance per level to break shields.$()$(li)$(thing)Loyalty$(): When performing $(l:slashblade_base_knowledge/blade_stand_intro)Proud Soul Enchanting$(), $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_ingot)copying SA$(), or $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_crystal)copying SE$(), has (10 × enchantment level)% chance to not consume materials.$()$(li)$(thing)Silk Touch$(): Doubles success rate for $(l:slashblade_base_knowledge/blade_stand_intro)Proud Soul Enchanting$(). When attempting to $(l:slashblade_base_knowledge/proudsoul_intro#proudsoul_crystal)copy an SE$(), if the SE is copyable and removable, preserves the SE on the blade and removes the Silk Touch enchantment.$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)General Tips$()$(br2)$(li)Multiple enhancement effects can coexist on the same blade, but some may have priority interactions.$()$(li)Enhancement effects only activate when the corresponding enchantment is present on the Slash Blade.$()$(li)Some effects (like Infinity and Quick Charge) are particularly useful for Summoned Sword-focused playstyles.$()$(li)Environmental effects like Impaling and Riptide are powerful in aquatic combat.$()$(br2)$(o)Experiment with different enchantment combinations to find the perfect setup for your playstyle!$()"
+    }
+  ],
+  "sortnum": 0
+}

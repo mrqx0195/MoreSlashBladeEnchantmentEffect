@@ -1,0 +1,13 @@
+{
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [
+    "MixinEnchantmentHelper",
+    "MixinEntity",
+    "MixinEntityAbstractSummonedSword",
+    "MixinPowderSnowBlock",
+    "MixinSummonedSwordArts"
+  ],
+  "package": "net.mrqx.slashblade.exenchantmenteffect.mixin",
+  "required": true
+}
