@@ -36,10 +36,3 @@ description='''${mod_description}'''
     versionRange="${mrqx_slash_blade_core_version_range}"
     ordering="NONE"
     side="BOTH"
-
-[[dependencies.${mod_id}]]
-    modId="truepower"
-    mandatory=true
-    versionRange="${true_power_version_range}"
-    ordering="NONE"
-    side="BOTH"
