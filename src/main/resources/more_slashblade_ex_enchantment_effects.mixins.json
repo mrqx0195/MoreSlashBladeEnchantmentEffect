@@ -9,5 +9,6 @@
     "MixinSummonedSwordArts"
   ],
   "package": "net.mrqx.slashblade.exenchantmenteffect.mixin",
+  "refmap": "more_slashblade_ex_enchantment_effects.refmap.json",
   "required": true
 }
