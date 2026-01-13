@@ -44,8 +44,10 @@ public abstract class MixinSummonedSwordArts {
             Map<Enchantment, Integer> enchantments = EnchantmentHelper.getEnchantments(blade);
             if (enchantments.containsKey(Enchantments.QUICK_CHARGE)) {
                 instance.schedule(key, time - Math.min(9L, 3L * enchantments.getOrDefault(Enchantments.QUICK_CHARGE, 0)), callback);
+                return;
             }
         }
+        original.call(instance, key, time, callback);
     }
 
     @WrapOperation(method = "lambda$onInputChange$7", at = @At(value = "INVOKE", target = "Lnet/minecraftforge/common/ForgeConfigSpec$IntValue;get()Ljava/lang/Object;"))

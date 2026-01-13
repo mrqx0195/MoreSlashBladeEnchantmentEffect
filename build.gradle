@@ -52,6 +52,11 @@ repositories {
         url = 'https://jitpack.io'
     }
 
+    maven {
+        name "KosmX's maven"
+        url 'https://maven.kosmx.dev/'
+    }
+
     flatDir {
         dir 'libs'
     }
@@ -124,9 +129,12 @@ dependencies {
     modImplementation "maven.modrinth:slashblade-resharped:${slash_blade_version}"
     modImplementation "maven.modrinth:2zhQmVfn:${mrqx_slash_blade_core_version}"
     modImplementation "maven.modrinth:true-power:${true_power_version}"
+    modImplementation "dev.kosmx.player-anim:player-animation-lib-forge:1.0.2-rc1+1.20"
     modImplementation "curse.maven:slashblade-patchouli-1406418:7343612"
-    modImplementation "curse.maven:legendreliclib-1307366:7373701"
-    modImplementation "curse.maven:foxbladeextrare-1350400:7087228"
+
+    modLocalRuntime "curse.maven:rough-blade-1218145:7411635"
+    modLocalRuntime "maven.modrinth:octo-lib:HZ7KmyXp"
+    modLocalRuntime "maven.modrinth:architectury-api:9.2.14+forge"
 
     modCompileOnlyApi "vazkii.patchouli:Patchouli:${patchouli_version}:api"
     modLocalRuntime "vazkii.patchouli:Patchouli:${patchouli_version}"
